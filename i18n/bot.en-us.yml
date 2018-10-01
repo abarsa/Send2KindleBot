@@ -1,79 +1,79 @@
 en-us:
-  askfile: Send me the file (up to 20MB)  or the link to the file.
-  askemail: Type your Kindle e-mail.
-  askemail2: Type your email used on your Amazon account.
-  askemail3: Type the e-mail you want to set.
-  askconvert: Send file <b>as is</b> or <b>converted</b> to Kindle format?
+  askfile: أرسل لي الملف أو الرابط (حجم الملف يجب أن يكون أصغر من 200 ميغا)
+  askemail: أدخل ايميلك الكيندل
+  askemail2: أدحل ايميلك المستخدم في حسابك الأمازون
+  askemail3: أدخل الايميل الذي تود استخدامه
+  askconvert:  أرسل ملف<b> كما هو بدون تحويل</b> أو  <b>محول </b> إلى صيغة كندل ؟
   success: |
-    <b>Success</b>.
-    To send a file to your Kindle, click <b>Send file</b>.
-    To change your e-mail, click <b>Set e-mail</b>.
+    <b>تمت العملية بنجاح</b>.
+  لإرسال الملف إلى جهازك الكندل إضعط على <b>إرسال ملف</b>.
+    لتغيير ايميلك اضغط على  <b>تعيين ايميل</b>.
   startnewuser: |
-    Hi!
-    This bot sends files to your Kindle.
-    First, type your Kindle e-mail.
-    It must end with <code>kindle.com</code>
+    مرحباً!
+    هذا البوت  يقوم بإرسال الملفات إلى جهازك الكندل
+    في البدء قم بإدخال ايميلك الكندل 
+    ايميل الكندل يجب أن يكون منتهياً بــ<code>kindle.com</code>
   startolduser: |
-    <b>Welcome back</b>!
-    Your registered e-mails are:
+    <b>مرحباً من جديد </b>!
+   ايميلاتك المسجلة هي
     {} {}
     {} {}
-    To send a file to your Kindle, click <b>Send file</b>.
-    To change an e-mail, click <b>Set e-mail</b>
+    لإرسال الملف إلى جهازك الكندل إضعط على <b>إرسال ملف</b>.
+    لتغيير ايميلك اضغط على  <b>تعيين ايميل</b>.
   error: |
-    <b>Error</b>.
-    Click /start and check your e-mails.
-  filenotfound: File not found. Aborted.
+    <b>خطأ</b>.
+    اضغط على /start وقم بالتحقق من ايميلك
+  filenotfound: لم يتم العثور على الملف , تم إلغاء العملية
   sendingfile: |
-    <b>Sending file</b>.
-    Please, wait a moment.
+    <b>جاري ارسال الملف</b>.
+    يرجى الانتظار 
   checkemail: |
-    <b>Error</b>.
-    Please, check your e-mail and try again.
+    <b>خطأ</b>.
+    قم بالتحقق من ايميلك رجاء ثم أعد المحاةولة
   filesent: |
-    <b>File sent</b>.
-    Wait a few minutes and check on your device.
+    <b>تم إرسال الملف</b>.
+   انتظر بضع دقائق ثم تحقق من الملف على جهازك
   rate: |
-    <b>Rate the bot:</b>
+    <b>قيّم هذا البوت</b>
     https://telegram.me/storebot?start=Send2Kindlebot
   donate: |
-    <b>Donate!</b>
+    <b>تبرع!</b>
     http://grf.xyz/paypal\n\n<b>Send a new command</b>.
-  btn1: Send File
-  btn2: Set e-mail
-  btn3: As is
-  btn4: Converted
+  btn1: أرسل ملف
+  btn2: عيّن ايميل
+  btn3: بدون تحويل
+  btn4: محوّل
   help: |
-    <b>What does this bot do?</b>
-    This bot is able to send files to your Kindle as if you were sending them by e-mail.
+    <b>ما هي وظيفة هذاالبووت</b>
+    هذا البوت يرسل الملفات إلى جهازك الكندل , وكأنك ترسلهم عبر الايميل
     
-    <b>Where is my Kindle's e-mail?</b>
-    Log into your Amazon account. Visit <i>Manage your Devices</i> page at <i>Manage Your Kindle</i>.
-    The e-mail address will end with <code>@Kindle.com</code>.
+    <b>أين أجد ايميلي الكندل</b>
+    سجل الدخول في حسابك الأمازون ثم قم بزيارة <i>إدارة أجهزتك</i> ثم صفحة <i>إدارة جهاز الكندل الخاص بك</i>.
+    الأيميل سيكون منتهياً بـ <code>@Kindle.com</code>.
 
-    <b>What kind of files are supported?</b>
+    <b>ما هي الملفات المدعومة</b>
     Abode PDF <code>.pdf</code>\nHTML <code>.htm .html</code>
-    Images <code>.jpg .gif .bmp .png</code>
+    الصور <code>.jpg .gif .bmp .png</code>
     Mobi book <code>.mobi</code>
     Microsoft Word <code>.doc .docx</code>
     Rich Text Format <code>.rtf</code>
-    Text files <code>.txt</code>
-    Zipped files <code>.zip .xzip</code>
+   الملفات النصية <code>.txt</code>
+    الملفات المضغوطة <code>.zip .xzip</code>
     <i>* The file conversion to Kindle format is an experimental service done by Amazon.</i>
 
-    <b>Is there any file size limit?</b>
-    Documents sent by link are limited to 50 MB (before compression).
-    Documents sent directly to the bot are limited to 20 MB.
+    <b>هل هناك حد أقصى للحجم</b>
+    الملفات المرسلة عبر الرابط حتى 50 ميغا (قبل الضغط).
+    الملفات المرسلة مباشرة للبوت حتى 20 ميغا
 
-    <b>For any other question, visit:</b>
+    <b>لاستفسارات أخرى قم بزيارة :</b>
     http://www.amazon.com/kindlepersonaldocuments/
 
-    <b>Source code:</b>
+    <b>الكود المصدري.</b>
     https://github.com/GabrielRF/Send2KindleBot
 
   info: |
-    This bot is under constant development!
-    If you have any question or suggestion, please, talk to me!
+    هذا البوت ما يزال قيد التطوير
+    لأية مشاكل أو اقتراحات يمكنك مراسلتي . 
 
     Twitter: @GabRF (http://twitter.com/GabRF)
     Telegram: @GabrielRF
